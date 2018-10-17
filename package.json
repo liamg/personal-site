@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.4.1",
-    "bulma": "^0.7.2",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
     "gulp-less": "^4.0.1",

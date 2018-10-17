@@ -15,7 +15,7 @@ gulp.task('fonts', function(){
 });
 
 gulp.task('css', function(){
-  return gulp.src(['node_modules/@fortawesome/fontawesome-free/css/all.min.css', 'node_modules/bulma/css/bulma.css', 'css/*.css'])
+  return gulp.src(['node_modules/@fortawesome/fontawesome-free/css/all.min.css', 'css/*.css'])
     .pipe(less())
     .pipe(minifyCSS())
     .pipe(concat('main.css'))
